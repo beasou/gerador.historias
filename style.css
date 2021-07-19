@@ -15,13 +15,24 @@ body {
   input[type="text"] {
     padding: 5px;
     width: 150px;
+    border-radius: 5px;
+    background-color: #d1d3d1;
+    border: 2px solid white;
   }
   button {
     background-color:rgba(128, 128, 128, 0.89);
     color: beige;
     font-weight: bold;
+    font-size: 17px;
     border-radius: 20px;
+    border: 2px solid white;
   }
+
+  button:hover{
+    cursor: pointer;
+    background-color:#FFC125;
+  }
+
 
   input[type='radio']:after {
     width: 15px;
